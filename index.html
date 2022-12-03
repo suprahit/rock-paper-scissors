@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="popup-card" id="popup" data-visible="hidden">
+            <h2 id="popup-result">Você venceu as 5 rodadas.</h2>
+        </div>
+        <header>
+            <div class="header-container">
+                <h1>Rock Paper Scissors</h1>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="option-container">
+                    <h2>Make your choice:</h2>
+                    <h2>The first to reach 5 points wins!</h2>
+                </div>
+                <div class="score-container">
+                    <div class="score-subcontainer">
+                        <h2>Bot</h2>
+                        <h2 id="bot-wins">0</h2>
+                    </div>
+                    <div class="score-subcontainer">
+                        <h2>Player</h2>
+                        <h2 id="player-wins">0</h2>
+                    </div>
+                </div>
+                <div class="buttons-container">
+                    <button id="rock" data-visible="visible">✊</button>
+                    <button id="paper" data-visible="visible">✋</button>
+                    <button id="scissors" data-visible="visible">✌️</button>
+                </div>
+                <div class="result">
+                    <h2>Bot's Choice</h2>
+                    <h2 id="result-icon"></h2>
+                    <h2 id="result-rounds"></h2>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h2>Copyright suprahit 2022</h2>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
