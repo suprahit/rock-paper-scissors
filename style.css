@@ -127,6 +127,8 @@ button {
     font-size: 5rem;
     margin: 10%;
     cursor: pointer;
+    background-color: transparent;
+    border: 0;
 }
 .result-icon {
     font-size: 2rem;
